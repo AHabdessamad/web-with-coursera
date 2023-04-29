@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+
+/* ************navbar style ***************/
+
+.navbar{
+border: none;
+}
+
+.glyphicon{
+	font-size: 40px;
+  color: white;
+
+	
+}
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+
+.text-center{
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+}
+#myNavbar ul li a {
+  text-align: center;
+  color: white;
+}
+.navbar-brand{
+font-size: 30px;	
+}
+
+/************* main content style ***************/
+
+h1{
+  text-align: center;
+  margin:3rem 0;
+}
+.container{
+  width: 100%;
+  padding: 10px;
+}
+section{
+  
+  background-color: gray;
+  color: black;
+  width: 30%;
+  float:right;
+  position: relative;
+  margin: 10px;
+  margin-left: 20px;
+}
+p{
+  /* position: relative; */
+  clear: right;
+}
+.content{
+  padding: 10px;
+}
+.top-txt{
+  padding: 6px;
+  text-align: center;
+}
+
+
+
+   /*desktop version*/
+   @media (min-width: 992px) {
+    section{
+        float: left;
+        width: 30%;
+    }
+}
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .section2,
+  .section1 {
+      float: left;
+      width: 46%;
+  }
+  .section3 {
+      float: left;
+      width: 96%;
+  }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+  .container{
+    
+    width: 96%;
+  }
+  section{
+      float: left;
+      width: 100%;
+  }
+}
